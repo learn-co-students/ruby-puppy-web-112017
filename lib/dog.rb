@@ -3,7 +3,6 @@ class Dog
 
   @@all = []
 
-
   def initialize(name)
     @@all << self
     @name = name
@@ -17,8 +16,6 @@ class Dog
   @@all.each do |object|
       puts object.name
    end
-  #  puts @@all_names.uniq
-
   end
 
 end
