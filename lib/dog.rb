@@ -16,10 +16,10 @@ class Dog
   end
 
   def self.all
-  #  @@all.each do |object|
-  #    puts object.name
-  #  end
-    puts @@all_names.uniq
+  @@all.each do |object|
+      puts object.name
+   end
+  #  puts @@all_names.uniq
 
   end
 
